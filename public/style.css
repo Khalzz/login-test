@@ -1,0 +1,111 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0;
+    flex-direction: column;
+    background-color: #2f343d;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C566A;
+    padding: 2em;
+    border-radius: 1em;
+    width: 15em;
+}
+
+label {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    color: #E5E9F0;
+    margin-top: 1em;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    color: #E5E9F0;
+    margin-top: 1em;
+    padding: 2em;
+    background-color: #4C566A;
+    border-radius: 1em;
+    width: 15em;
+    text-align: center;
+}
+
+a {
+    color: #88C0D0;
+}
+
+#submitForm {
+    margin-top: 1em;
+}
+#error-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    color: red;
+}
+
+input {
+    padding-left: 0.5em;
+    height: 2em;
+    border: 0;
+    background: rgba(255, 255, 255, 0.12);
+    border-radius: 5px;;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+    outline: none;
+    color:#E5E9F0;
+    width: 100%;
+}
+
+input::placeholder {
+    color:#9197A1;
+}
+
+input:focus {
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid #E5E9F0 !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#submitForm {
+    width: 18em;
+    font-family: 'Inter', sans-serif;
+    height: 2.5em;
+    border: 1px solid #E5E9F0;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #E5E9F0;
+    transition: 0.1s;
+}
+
+#submitForm:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-weight: 400;
+    color: #1E1E1E;
+    background-color: #E5E9F0;
+}
+
+#submitForm:focus {
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.25));
+    transform: scale(0.9);
+    font-weight: 400;
+    color: #1E1E1E;
+    background-color: #E5E9F0;
+}
+
+#welcome {
+    
+}
